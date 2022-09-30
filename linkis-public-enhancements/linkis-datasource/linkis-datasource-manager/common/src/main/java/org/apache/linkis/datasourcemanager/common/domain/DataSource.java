@@ -267,6 +267,9 @@ public class DataSource {
     }
 
     public Long getPublishedVersionId() {
+        if (publishedVersionId == null) {
+            return versionId;
+        }
         return publishedVersionId;
     }
 
