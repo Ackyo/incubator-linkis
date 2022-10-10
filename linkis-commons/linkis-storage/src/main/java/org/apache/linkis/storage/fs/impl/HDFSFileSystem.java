@@ -412,7 +412,7 @@ public class HDFSFileSystem extends FileSystem {
                 return true;
             }
         }
-        return false;
+        return true;
     }
 
     public String getLabel() {
